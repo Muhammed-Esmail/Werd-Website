@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg?">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script defer src="app.js"></script>
+    <title>Werd - Your Daily Quran Companion</title>
+</head>
+<body>
+<div class="preloader">
+    <span class="preloader__circle"></span>
+    <span class="preloader__circle preloader__circle--two"></span>
+</div>
+
+<a href="#" class="go-top" aria-label="Go back to top"><i class="fa-solid fa-chevron-up"></i></a>
+
+<nav>
+    <a href="#" class="nav__logo">
+        <span class="nav__logo-text"> Werd</span>
+    </a>
+    <ul class="nav__links">
+        <li><a href="#header" class="header-link">Home</a></li>
+        <li><a href="#features" class="features-link">Features</a></li>
+        <li><a href="#overview" class="overview-link">How It Works</a></li>
+        <li><a href="#pricing" class="pricing-link">Plans</a></li>
+        <li><a href="#team" class="team-link">Team</a></li>
+        <li><a href="#faq" class="faq-link">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__menu">
+        <div class="hamburger"></div>
+    </div>
+    <a href="#" class="nav__cta">Download App</a>
+</nav>
+
+<!-- ========== HERO SECTION ========== -->
+<header id="header" class="nav-section">
+    <section class="header__text">
+        <h1 class="fadeFromLeft">Your Daily Quran Companion</h1>
+        <p class="fadeFromLeft">A dedicated app for tracking your Werd with minimal UI and simple features that does not distract the reader and encourages maintaining your reading streak.</p>
+        <div class="header__text-link fadeFromLeft">
+            <a href="#"><i class="fa-brands fa-apple"></i><span>App Store</span></a>
+            <a href="#"><i class="fa-brands fa-google-play"></i><span>Google Play</span></a>
+        </div>
+    </section>
+
+</header>
+
+<!-- ========== FEATURES SECTION ========== -->
+<div class="features nav-section" id="features">
+    <section class="features__text">
+        <h3 class="fadeFromTop">Features</h3>
+        <h2 class="fadeFromTop">Everything You Need to Maintain Your Quran Journey</h2>
+        <p class="fadeFromTop">Werd is designed with one goal: helping you stay consistent with your Quran reading without distractions.</p>
+    </section>
+    <div class="features__grid">
+        <!-- Feature 1: Offline Reading -->
+        <article class="feature fadeFromTop">
+            <div class="feature__icon">
+                <i class="fa-solid fa-book-quran"></i>
+            </div>
+            <h3>100% Offline Reading</h3>
+            <p>Read the Holy Quran anytime, anywhere. All features work perfectly without internet connection.</p>
+        </article>
+        <!-- Feature 2: Smart Segmentation -->
+        <article class="feature fadeFromTop">
+            <div class="feature__icon">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <h3>Smart Segmentation</h3>
+            <p>Choose your reading goal - finish in 1 week, 1 month, 3 months, or set a custom schedule. Partition by pages, Juz, or Surahs.</p>
+        </article>
+        <!-- Feature 3: Streak Tracking -->
+        <article class="feature fadeFromTop">
+            <div class="feature__icon">
+                <i class="fa-solid fa-fire"></i>
+            </div>
+            <h3>Streak Tracking</h3>
+            <p>Stay motivated with a calendar heatmap that highlights your reading days. Track consecutive days to never break your streak.</p>
+        </article>
+        <!-- Feature 4: PDF Export -->
+        <article class="feature fadeFromTop">
+            <div class="feature__icon">
+                <i class="fa-solid fa-file-pdf"></i>
+            </div>
+            <h3>Export as PDF</h3>
+            <p>Download today's Werd as a beautifully formatted PDF to share with friends and family.</p>
+        </article>
+        <!-- Feature 5: Landmark Sounds -->
+        <article class="feature fadeFromTop">
+            <div class="feature__icon">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <h3>Landmark Celebrations</h3>
+            <p>Enjoy satisfying sound effects when you complete a Surah or Juz - a small reward for your dedication.</p>
+        </article>
+        <!-- Feature 6: Manual Override -->
+        <article class="feature fadeFromTop">
+            <div class="feature__icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <h3>Physical Mushaf Support</h3>
+            <p>Reading from a physical Mushaf? Mark your Werd as complete manually. The app shows your page range so you know where to read.</p>
+        </article>
+    </div>
+</div>
+
+<!-- ========== OVERVIEW SECTION ========== -->
+<section class="overview nav-section" id="overview">
+    <!-- First Block -->
+    <div class="overview-flex fadeFromTop">
+        <article class="overview-flex__text">
+            <div class="overview-flex__text-icon">
+                <i class="fa-solid fa-book-quran"></i>
+            </div>
+            <h2>Quran Reader</h2>
+            <p>Read the Holy Quran with a clean, minimal interface designed to keep you focused on every ayah. Beautiful Arabic typography with no distractions.</p>
+        </article>
+        <article class="overview-flex__text">
+            <div class="overview-flex__text-icon">
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            <h2>Distraction-Free Reading</h2>
+            <p>Our minimal UI keeps you focused on what matters - the words of Allah. No ads, no clutter, just pure reading experience.</p>
+        </article>
+    </div>
+
+    <!-- Second Block -->
+    <div class="overview-flex fadeFromTop">
+        <article class="overview-flex__text">
+            <div class="overview-flex__text-icon">
+                <i class="fa-solid fa-fire"></i>
+            </div>
+            <h2>Track Your Progress</h2>
+            <p>Visualize your journey with our beautiful heatmap calendar. See your reading history at a glance and get motivated by your growing streak.</p>
+        </article>
+        <article class="overview-flex__text">
+            <div class="overview-flex__text-icon">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <h2>Streak Calendar</h2>
+            <p>Never miss a day. Track your reading streaks and watch your consistency grow over time with daily reminders.</p>
+        </article>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="overview__facts">
+        <h2 class="fadeFromTop">Join Thousands of Readers</h2>
+        <p class="fadeFromTop">Building consistent Quran reading habits, one day at a time.</p>
+        <div class="fact-flex fadeFromTop">
+            <div class="fact-flex__column">
+                <h3>114</h3>
+                <p>Surahs Available</p>
+            </div>
+            <div class="fact-flex__column">
+                <h3>30</h3>
+                <p>Juz Partitions</p>
+            </div>
+            <div class="fact-flex__column">
+                <h3>604</h3>
+                <p>Pages of Quran</p>
+            </div>
+            <div class="fact-flex__column">
+                <h3>∞</h3>
+                <p>Rewards Insha'Allah</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PRICING SECTION ========== -->
+<section class="pricing nav-section" id="pricing">
+    <div class="pricing__text">
+        <h3 class="fadeFromTop">Reading Plans</h3>
+        <h2 class="fadeFromTop">Choose Your Werd Schedule</h2>
+        <p class="fadeFromTop">Select a reading plan that fits your lifestyle. All plans are free!</p>
+    </div>
+    <div class="pricing__grid">
+        <!-- Plan 1: 1 Week -->
+        <div class="price-menu fadeFromTop">
+            <h4 class="price-menu__type">Intensive</h4>
+            <p>Complete the Quran in</p>
+            <div class="price-menu__price">
+                <h2>1 Week</h2>
+            </div>
+            <button class="price-menu__btn">for free <3</button>
+            <hr>
+            <h5 class="price-menu__included">What's included</h5>
+            <ul class="price-menu__list">
+                <li><i class="fa-solid fa-check"></i>~86 pages per day</li>
+                <li><i class="fa-solid fa-check"></i>~4 Juz per day</li>
+                <li><i class="fa-solid fa-check"></i>Daily reminders</li>
+                <li><i class="fa-solid fa-check"></i>Progress tracking</li>
+            </ul>
+        </div>
+        <!-- Plan 2: 1 Month -->
+        <div class="price-menu fadeFromTop">
+            <h4 class="price-menu__type">Balanced</h4>
+            <p>Complete the Quran in</p>
+            <div class="price-menu__price">
+                <h2>1 Month</h2>
+            </div>
+            <button class="price-menu__btn">for free <3</button>
+            <hr>
+            <h5 class="price-menu__included">What's included</h5>
+            <ul class="price-menu__list">
+                <li><i class="fa-solid fa-check"></i>~20 pages per day</li>
+                <li><i class="fa-solid fa-check"></i>1 Juz per day</li>
+                <li><i class="fa-solid fa-check"></i>Daily reminders</li>
+                <li><i class="fa-solid fa-check"></i>Progress tracking</li>
+            </ul>
+        </div>
+        <!-- Plan 3: 3 Months -->
+        <div class="price-menu fadeFromTop">
+            <h4 class="price-menu__type">Relaxed</h4>
+            <p>Complete the Quran in</p>
+            <div class="price-menu__price">
+                <h2>3 Months</h2>
+            </div>
+            <button class="price-menu__btn">for free <3</button>
+            <hr>
+            <h5 class="price-menu__included">What's included</h5>
+            <ul class="price-menu__list">
+                <li><i class="fa-solid fa-check"></i>~7 pages per day</li>
+                <li><i class="fa-solid fa-check"></i>~2-3 Surahs per day</li>
+                <li><i class="fa-solid fa-check"></i>Daily reminders</li>
+                <li><i class="fa-solid fa-check"></i>Progress tracking</li>
+            </ul>
+        </div>
+        <!-- Plan 4: Custom -->
+        <div class="price-menu fadeFromTop">
+            <h4 class="price-menu__type">Custom</h4>
+            <p>Complete the Quran in</p>
+            <div class="price-menu__price">
+                <h2>Your Pace</h2>
+            </div>
+            <button class="price-menu__btn">for free <3</button>
+            <hr>
+            <h5 class="price-menu__included">What's included</h5>
+            <ul class="price-menu__list">
+                <li><i class="fa-solid fa-check"></i>Set your own goal</li>
+                <li><i class="fa-solid fa-check"></i>Flexible scheduling</li>
+                <li><i class="fa-solid fa-check"></i>Daily reminders</li>
+                <li><i class="fa-solid fa-check"></i>Progress tracking</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ========== TEAM SECTION ========== -->
+<section class="team nav-section" id="team">
+    <div class="team__text">
+
+        <h2 class="fadeFromTop">Meet the dedicated team behind Werd.</h2>
+    </div>
+    <div class="team__grid">
+        <!-- Team Member 1: Esmail -->
+        <div class="stuff fadeFromTop">
+            <div class="stuff__img" style="background: linear-gradient(135deg, #1F1F1F 0%, #121212 100%); display: flex; justify-content: center; align-items: center; height: 200px;">
+                <i class="fa-solid fa-code" style="font-size: 4rem; color: #00FF9F;"></i>
+            </div>
+            <div class="stuff__info">
+                <div class="stuff__info--name">
+                    <h3>Muhammed Esmail</h3>
+                    <h5>Reader Module Developer</h5>
+                </div>
+                <div class="stuff__info--links">
+                    <a href="https://github.com/Muhammed-Esmail" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammed-esmail0/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2: Amadoo -->
+        <div class="stuff fadeFromTop">
+            <div class="stuff__img" style="background: linear-gradient(135deg, #1F1F1F 0%, #121212 100%); display: flex; justify-content: center; align-items: center; height: 200px;">
+                <i class="fa-solid fa-calculator" style="font-size: 4rem; color: #00FF9F;"></i>
+            </div>
+            <div class="stuff__info">
+                <div class="stuff__info--name">
+                    <h3>Ahmed Amin</h3>
+                    <h5>Segmentation Engine</h5>
+                </div>
+                <div class="stuff__info--links">
+                    <a href="https://github.com/Amadoo42" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmad-elmetwally" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3: Lashin -->
+        <div class="stuff fadeFromTop">
+            <div class="stuff__img" style="background: linear-gradient(135deg, #1F1F1F 0%, #121212 100%); display: flex; justify-content: center; align-items: center; height: 200px;">
+                <i class="fa-solid fa-fire" style="font-size: 4rem; color: #00FF9F;"></i>
+            </div>
+            <div class="stuff__info">
+                <div class="stuff__info--name">
+                    <h3>Seif Lashin</h3>
+                    <h5>Streaks & Gamification</h5>
+                </div>
+                <div class="stuff__info--links">
+                    <a href="https://github.com/Seif-Lashin" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/seif-lashin" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 4: Essam -->
+        <div class="stuff fadeFromTop">
+            <div class="stuff__img" style="background: linear-gradient(135deg, #1F1F1F 0%, #121212 100%); display: flex; justify-content: center; align-items: center; height: 200px;">
+                <i class="fa-solid fa-palette" style="font-size: 4rem; color: #00FF9F;"></i>
+            </div>
+            <div class="stuff__info">
+                <div class="stuff__info--name">
+                    <h3>Youssef Essam</h3>
+                    <h5>UI & Configuration</h5>
+                </div>
+                <div class="stuff__info--links">
+                    <a href="https://github.com/Youssef-Essam12" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/youssef-essam-76777b297/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 5: Yellowduck -->
+        <div class="stuff fadeFromTop">
+            <div class="stuff__img" style="background: linear-gradient(135deg, #1F1F1F 0%, #121212 100%); display: flex; justify-content: center; align-items: center; height: 200px;">
+                <i class="fa-solid fa-gears" style="font-size: 4rem; color: #00FF9F;"></i>
+            </div>
+            <div class="stuff__info">
+                <div class="stuff__info--name">
+                    <h3>Youssef Hassib</h3>
+                    <h5>Utilities & Integration</h5>
+                </div>
+                <div class="stuff__info--links">
+                    <a href="https://github.com/youssef97-7" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/youssef-h-9a3189336/E" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== DOWNLOAD CTA SECTION ========== -->
+<section class="install">
+    <h2 class="fadeFromTop">Start Your Quran Journey Today</h2>
+    <p class="fadeFromTop">Download Werd and never miss your daily reading again. Build a habit that lasts a lifetime.</p>
+    <div class="install__link fadeFromTop">
+        <a href="#"><i class="fa-brands fa-apple"></i><span>App Store</span></a>
+        <a href="#"><i class="fa-brands fa-google-play"></i><span>Google Play</span></a>
+    </div>
+</section>
+
+<!-- ========== FAQ SECTION ========== -->
+<section class="faq nav-section" id="faq">
+    <div class="faq__text">
+        <h3 class="fadeFromTop">FAQ</h3>
+        <h2 class="faq__h2 fadeFromTop">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq__accordion">
+        <details>
+            <summary>
+                <span class="question">
+                    <span class="question__count">1</span>
+                    Does Werd work offline?
+                </span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </summary>
+            <p class="answer">Yes! Werd is designed to work 100% offline. All Quran text and features are available without an internet connection.</p>
+        </details>
+        <details>
+            <summary>
+                <span class="question">
+                    <span class="question__count">2</span>
+                    Can I use Werd with a physical Mushaf?
+                </span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </summary>
+            <p class="answer">Absolutely! Werd supports manual override for physical Mushaf readers. The app displays your Werd's page range (from page X to page Y) so you know exactly where to start and stop.</p>
+        </details>
+        <details>
+            <summary>
+                <span class="question">
+                    <span class="question__count">3</span>
+                    What happens if I miss a day?
+                </span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </summary>
+            <p class="answer">Don't worry! Werd automatically recalculates your reading plan if you fall behind. Your journey continues without pressure.</p>
+        </details>
+        <details>
+            <summary>
+                <span class="question">
+                    <span class="question__count">4</span>
+                    Is Werd free to use?
+                </span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </summary>
+            <p class="answer">Yes, Werd is completely free. Our mission is to help Muslims maintain their Quran reading habit without any barriers.</p>
+        </details>
+        <details>
+            <summary>
+                <span class="question">
+                    <span class="question__count">5</span>
+                    Can I share my daily Werd with others?
+                </span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </summary>
+            <p class="answer">Yes! You can download your daily Werd as a beautifully formatted PDF and share it with friends, family, or on social media.</p>
+        </details>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+    <div class="footer__top">
+        <div class="footer__intro">
+            <span style="color: #00FF9F; font-size: 1.5rem; font-weight: bold;">Werd</span>
+            <p>A dedicated app for tracking your daily Quran reading with minimal UI and simple features.</p>
+            <ul class="footer__intro--media-links">
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <p class="footer__intro--copyright">© 2026 Werd. Built with ❤️ for the Ummah.</p>
+        </div>
+        <div class="footer__grids">
+            <div class="footer__grid">
+                <h3>Features</h3>
+                <ul class="footer__grid--list">
+                    <li><a href="#">Offline Reading</a></li>
+                    <li><a href="#">Streak Tracking</a></li>
+                    <li><a href="#">PDF Export</a></li>
+                    <li><a href="#">Notifications</a></li>
+                </ul>
+            </div>
+            <div class="footer__grid">
+                <h3>Support</h3>
+                <ul class="footer__grid--list">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Report Bug</a></li>
+                </ul>
+            </div>
+            <div class="footer__grid">
+                <h3>Company</h3>
+                <ul class="footer__grid--list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer__grid">
+                <h3>Legal</h3>
+                <ul class="footer__grid--list">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter">
+        <div class="newsletter__text">
+            <h3>Stay Updated</h3>
+            <p>Get notified about new features and updates.</p>
+        </div>
+        <form class="newsletter__form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
