@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/download",
+      "destination": "https://github.com/Muhammed-Esmail/Werd/releases/download/werd/application-c03416e4-080c-4015-a00d-879b1a6f45da.apk",
+      "permanent": false
+    }
+  ]
+}
